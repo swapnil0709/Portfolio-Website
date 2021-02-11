@@ -1,0 +1,32 @@
+.projects {
+  width: 90%;
+  margin: auto;
+  min-height: 90vh;
+  @include flex(space-between, center, row);
+  text-align: center;
+  flex-wrap: wrap;
+  h2 {
+    margin: 5rem;
+  }
+}
+.traveller,
+.elena,
+.arpeggio,
+.keeper,
+.tindog {
+  flex: 1 1 40rem;
+
+  &:hover {
+    animation: img 0.5s ease-in-out alternate infinite;
+    transform-origin: bottom;
+  }
+}
+
+@keyframes img {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
