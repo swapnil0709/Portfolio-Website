@@ -311,7 +311,8 @@ a {
 .elena,
 .arpeggio,
 .keeper,
-.tindog {
+.tindog,
+.pretty-palette {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 40rem;
           flex: 1 1 40rem;
@@ -321,7 +322,8 @@ a {
 .elena:hover,
 .arpeggio:hover,
 .keeper:hover,
-.tindog:hover {
+.tindog:hover,
+.pretty-palette:hover {
   -webkit-animation: img 0.5s ease-in-out alternate infinite;
           animation: img 0.5s ease-in-out alternate infinite;
   -webkit-transform-origin: bottom;
@@ -547,14 +549,22 @@ footer h4 {
   .intro-images {
     text-align: center;
   }
+  .traveller,
   .elena,
-  .traveller {
+  .arpeggio,
+  .keeper,
+  .tindog,
+  .pretty-palette {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 50rem;
             flex: 1 1 50rem;
   }
+  .traveller img,
   .elena img,
-  .traveller img {
+  .arpeggio img,
+  .keeper img,
+  .tindog img,
+  .pretty-palette img {
     width: 100%;
     height: 100%;
   }
